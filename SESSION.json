@@ -1,0 +1,17 @@
+{
+  "session_id": "2026-09-14-oac-observable-aliasing",
+  "timestamp": "2026-09-14T13:40:00-04:00",
+  "class": "Observable-Aliasing Class (OAC)",
+  "author": "Haley Bird",
+  "status": "research-stage classification",
+  "novelty_cap": 0.41,
+  "coherence": 0.84,
+  "ip_readiness": "Logged",
+  "sha256_oac_result": "1e289b431692749c762b974109463ee66b5677fcdfc596731bb55ab76c4a2feb",
+  "primary": "IMF_MASS",
+  "co_primary": "SUKUNA_KIND",
+  "runner_up": "LRD_LINEWIDTH",
+  "calibration": "REION_PRODUCT",
+  "dual_of": "PPC-2026-09-08",
+  "archive_parent": "397ed6aa-f8ff-424e-bcb1-51edee916f90"
+}

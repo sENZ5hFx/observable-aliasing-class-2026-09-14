@@ -1,0 +1,431 @@
+{
+  "session_id": "2026-09-14-oac-observable-aliasing",
+  "timestamp": "2026-09-14T13:40:00-04:00",
+  "class": "Observable-Aliasing Class (OAC)",
+  "definition": "Independent physical quantities are collapsed by a rank-deficient observation operator into a single reported number or named object. The crisis is often the alias.",
+  "dual_of": "PPC (2026-09-08): PPC adds hidden DOF; OAC has too few independent observables.",
+  "prior_art": [
+    "Koopmans 1949 identifiability",
+    "Wyithe et al. 2010 f_esc degeneracy",
+    "Wang & Shan 2026 ApJL / arXiv:2605.01380 structural degeneracy in reionization"
+  ],
+  "what_is_not_claimed": "Not the reionization math (named in-field). Not a new particle, organism, or law. Not that dark oxygen is real. Not that LRDs are black hole stars. Not that dark energy evolves.",
+  "archive_subtracted": [
+    "Dark Resonance Substrate",
+    "Dark Biosphere Hypothesis",
+    "Cosmic-Bio Resonance",
+    "Undersampling",
+    "Deep-biosphere-as-space-prior",
+    "Ritual Nyquist",
+    "TAC",
+    "Cadence Mismatch",
+    "NCR / Initiation-Maintenance",
+    "FAC",
+    "CIC",
+    "JAC",
+    "IOA",
+    "DIC",
+    "PPC",
+    "UCC",
+    "ASC",
+    "DCC",
+    "FCC"
+  ],
+  "split": {
+    "mode": "structural_gap_holds",
+    "primary": "IMF_MASS",
+    "primary_score": 71.91,
+    "runner_up": "LRD_LINEWIDTH",
+    "calibration_top": "REION_PRODUCT",
+    "n_structural": 6,
+    "n_calibration": 1
+  },
+  "null_trap": {
+    "id": "NULL_DARK_MATTER_X_MICROBIOME",
+    "status": "KILLED",
+    "score": 0.0,
+    "reasons": [
+      "fix is extra hidden DOF → PPC, not OAC"
+    ]
+  },
+  "manifolds": {
+    "LRD_BH_mass_orders": {
+      "units": "Msun",
+      "reported": 10000000.0,
+      "unmixed_interval": [
+        100000.0,
+        10000000.0
+      ],
+      "point_shift": 4950000.0,
+      "remaining_width": 9900000.0,
+      "alias_share": 0.3333,
+      "remainder_share": 0.6667,
+      "interpretation": "unmixing leaves a comparable remainder"
+    },
+    "reion_epsilon_percent": {
+      "units": "percent baryon conversion",
+      "reported": 3.5,
+      "unmixed_interval": [
+        1.0,
+        2.0
+      ],
+      "point_shift": 2.0,
+      "remaining_width": 1.0,
+      "alias_share": 0.6667,
+      "remainder_share": 0.3333,
+      "interpretation": "most of the named crisis was alias"
+    },
+    "IMF_mass_multiplier": {
+      "units": "mass multiplier vs standard IMF",
+      "reported": 1.0,
+      "unmixed_interval": [
+        1.1,
+        4.0
+      ],
+      "point_shift": 1.55,
+      "remaining_width": 2.9,
+      "alias_share": 0.3483,
+      "remainder_share": 0.6517,
+      "interpretation": "unmixing leaves a comparable remainder"
+    },
+    "EEI_Wm2": {
+      "units": "W m-2",
+      "reported": 0.79,
+      "unmixed_interval": [
+        1.0,
+        1.24
+      ],
+      "point_shift": 0.33,
+      "remaining_width": 0.24,
+      "alias_share": 0.5789,
+      "remainder_share": 0.4211,
+      "interpretation": "unmixing leaves a comparable remainder"
+    }
+  },
+  "ranking": [
+    {
+      "score": 71.91,
+      "status": "STRUCTURAL_GAP",
+      "promoted": true,
+      "id": "IMF_MASS",
+      "realm": "space",
+      "title": "Hidden low-mass stars alias galaxy mass",
+      "observable": "stellar mass from light",
+      "aliased": [
+        "true stellar mass",
+        "IMF low-mass slope"
+      ],
+      "source": "Cheng et al. via Earth.com 2026-09-08; nine JWST galaxies, multiplier 1.1–4.0",
+      "reasons": []
+    },
+    {
+      "score": 62.12,
+      "status": "STRUCTURAL_GAP",
+      "promoted": true,
+      "id": "LRD_LINEWIDTH",
+      "realm": "space",
+      "title": "LRD line width: electron scattering aliased as virial motion",
+      "observable": "broad H/He lines → BH mass",
+      "aliased": [
+        "electron-scattering optical depth",
+        "Doppler/virial velocity"
+      ],
+      "source": "Nature 649:574–579 (2026-01-14); Nature Astronomy 2026-09-04; Quanta 2026-09-14",
+      "reasons": []
+    },
+    {
+      "score": 60.64,
+      "status": "STRUCTURAL_GAP",
+      "promoted": true,
+      "id": "SUKUNA_KIND",
+      "realm": "ocean",
+      "title": "Sukunaarchaeum: life/virus binary aliases metabolic × replicative autonomy",
+      "observable": "named kind ('cell' vs 'virus')",
+      "aliased": [
+        "replicative core (DNA/RNA machinery)",
+        "metabolic autonomy"
+      ],
+      "source": "Harada et al. 2025; Quanta 2025-11-24; Wikipedia 2026-09-11; 238 kbp, no metabolic pathways",
+      "reasons": []
+    },
+    {
+      "score": 59.5,
+      "status": "STRUCTURAL_GAP",
+      "promoted": true,
+      "id": "LAND_SINK_NET",
+      "realm": "land",
+      "title": "Land carbon sink collapse as unmixed net",
+      "observable": "net land CO2 flux 2023–24",
+      "aliased": [
+        "GPP / growth",
+        "autotrophic + heterotrophic respiration + disturbance"
+      ],
+      "source": "10NICS 2025 Insight 3; Wood Mackenzie 2026-09-03 (sinks absorb ~40% of human CO2, weakening)",
+      "reasons": []
+    },
+    {
+      "score": 52.51,
+      "status": "STRUCTURAL_GAP",
+      "promoted": true,
+      "id": "W0WA_PHANTOM",
+      "realm": "space",
+      "title": "Dark-energy w0–wa phantom crossing as parameterization alias",
+      "observable": "distance-redshift (SN+BAO+CMB)",
+      "aliased": [
+        "true w(z)",
+        "parameterization + curvature + SN evolution"
+      ],
+      "source": "Unite 2884-SN catalogue 2026-09-11; WIRED/Quanta 2026-09-07 Teixeira et al.; DESI 2025/2026",
+      "reasons": []
+    },
+    {
+      "score": 45.81,
+      "status": "STRUCTURAL_GAP",
+      "promoted": true,
+      "id": "EEI_NET",
+      "realm": "earth",
+      "title": "Earth energy imbalance as unmixable net",
+      "observable": "TOA net flux / ocean heat content",
+      "aliased": [
+        "shortwave cloud/aerosol/albedo",
+        "longwave GHG / cloud masking"
+      ],
+      "source": "Forster et al. 2026 (EEI 1.12 W m-2 2013–25); Cheng OHC 2025 record; 10NICS 2025; Douville GRL 2026",
+      "reasons": []
+    },
+    {
+      "score": 28.59,
+      "status": "CALIBRATION",
+      "promoted": false,
+      "id": "REION_PRODUCT",
+      "realm": "space",
+      "title": "Reionization f_esc × f_star,0 product",
+      "observable": "ionizing photon rate / Thomson τ / UV LF",
+      "aliased": [
+        "escape fraction f_esc",
+        "peak star-formation efficiency f_star,0"
+      ],
+      "source": "Wang & Shan 2026 ApJL 1006 L41; arXiv:2605.01380; Wyithe et al. 2010",
+      "reasons": [
+        "home field already named this degeneracy; calibration only"
+      ]
+    },
+    {
+      "score": 27.45,
+      "status": "CLOSED",
+      "promoted": false,
+      "id": "CLOSED_DARK_O2",
+      "realm": "ocean",
+      "title": "Lander O2 net aliased as abyssal production",
+      "observable": "dO2/dt in benthic chamber",
+      "aliased": [
+        "true production",
+        "contamination + respiration + leakage"
+      ],
+      "source": "Sweetman 2024; Nature Geoscience Editor's Note 2026-04-08; Downes Front Mar Sci 2025; F1000 2026-05-14",
+      "reasons": [
+        "home field already named this degeneracy; calibration only",
+        "finding closed; retained as operator calibration"
+      ]
+    },
+    {
+      "score": 19.95,
+      "status": "PENALIZED",
+      "promoted": false,
+      "id": "WHOLISTIC_SCALE",
+      "realm": "animals",
+      "title": "Cell-scale Ca2+ aliased away from organism-scale behavior",
+      "observable": "either cellular OR organismal recording",
+      "aliased": [
+        "cell-autonomous signals",
+        "organism-level synergies"
+      ],
+      "source": "Ruetten et al. Nature 2026-09-12 WHOLISTIC zebrafish",
+      "reasons": [
+        "partial overlap with IOA"
+      ]
+    },
+    {
+      "score": 19.68,
+      "status": "PENALIZED",
+      "promoted": false,
+      "id": "MAGNETO_HOLOBIONT",
+      "realm": "animals",
+      "title": "Magnetoreception aliased as host trait vs endosymbiont trait",
+      "observable": "taxis along B",
+      "aliased": [
+        "host-encoded receptor",
+        "endosymbiotic magnetotactic bacteria"
+      ],
+      "source": "Nature Communications 2026-03-10 magnetotactic freshwater ciliate HBD-1",
+      "reasons": [
+        "partial overlap with TAC (magnetoreceptor)"
+      ]
+    },
+    {
+      "score": 19.42,
+      "status": "PENALIZED",
+      "promoted": false,
+      "id": "AURORA_REACTOR",
+      "realm": "earth",
+      "title": "Aurora aliased as optical weather vs ion-beam prebiotic reactor",
+      "observable": "auroral emission",
+      "aliased": [
+        "photon display / space weather",
+        "localized energetic-particle chemistry"
+      ],
+      "source": "Kato BioSystems 2026-09-07; phys.org 2026-09-08",
+      "reasons": [
+        "partial overlap with JAC (disciplinary join) / DCC"
+      ]
+    },
+    {
+      "score": 19.25,
+      "status": "PENALIZED",
+      "promoted": false,
+      "id": "SOIL_C_PRODUCT",
+      "realm": "land",
+      "title": "Soil carbon as input × residence × mineral protection",
+      "observable": "soil C stock",
+      "aliased": [
+        "litter/root input",
+        "MRT × mineral protection (necromass)"
+      ],
+      "source": "GCB 2025 necromass dominates soil C; FCC ranked soil FPI 0.546",
+      "reasons": [
+        "partial overlap with FCC (soil FPI)"
+      ]
+    },
+    {
+      "score": 13.66,
+      "status": "PENALIZED",
+      "promoted": false,
+      "id": "MESO_CARBON",
+      "realm": "ocean",
+      "title": "Mesopelagic biomass × DVM carbon export",
+      "observable": "biological carbon pump number",
+      "aliased": [
+        "true mesopelagic biomass",
+        "export efficiency / target strength"
+      ],
+      "source": "McMonagle; Cavan 2026-09-03; FCC treated as JAC spoken-but-open",
+      "reasons": [
+        "partial overlap with JAC + IOA + FCC CLOSED-MESO-AS-JAC"
+      ]
+    },
+    {
+      "score": 0.0,
+      "status": "ZEROED",
+      "promoted": false,
+      "id": "BRAIN_DARK_E",
+      "realm": "humans",
+      "title": "Brain baseline energy aliased as cognitive work",
+      "observable": "brain 20% of body energy",
+      "aliased": [
+        "task-evoked consumption",
+        "intrinsic/default maintenance"
+      ],
+      "source": "Raichle 2010/2015; FCC negative control FPI 0.014",
+      "reasons": [
+        "archive owns this: FCC negative / spoken"
+      ]
+    },
+    {
+      "score": 0.0,
+      "status": "ZEROED",
+      "promoted": false,
+      "id": "CLOSED_UNIVERSAL_DARK",
+      "realm": "cross",
+      "title": "Universal 90% dark-fraction law",
+      "observable": "incommensurable 'dark' percentages",
+      "aliased": [
+        "whatever is hard to name",
+        "whatever is easy to name"
+      ],
+      "source": "JAC kill 2026-09-02; FCC closed 2026-09-13 median 0.78",
+      "reasons": [
+        "archive owns this: JAC kill + FCC CLOSED-DARK-FRACTION-LAW"
+      ]
+    },
+    {
+      "score": 0.0,
+      "status": "ZEROED",
+      "promoted": false,
+      "id": "CRYPTIC_3_1",
+      "realm": "animals",
+      "title": "Morphological species aliases ~3.1 cryptic species",
+      "observable": "Linnaean species",
+      "aliased": [
+        "genetic lineages",
+        "plastic morphospace"
+      ],
+      "source": "Lehmitz et al. npj Biodivers. 2025 (CIC already scored)",
+      "reasons": [
+        "archive owns this: CIC"
+      ]
+    },
+    {
+      "score": 0.0,
+      "status": "ZEROED",
+      "promoted": false,
+      "id": "DARK_GENOME",
+      "realm": "humans",
+      "title": "Noncoding genome 'function' as activity × selection alias",
+      "observable": "'functional' fraction of genome",
+      "aliased": [
+        "biochemical assay activity",
+        "purifying-selection signature"
+      ],
+      "source": "ENCODE vs Graur; IISc Connect Apr 2026; CIC two-clock already scored",
+      "reasons": [
+        "archive owns this: CIC two-clock + NCR naming drift"
+      ]
+    },
+    {
+      "score": 0.0,
+      "status": "ZEROED",
+      "promoted": false,
+      "id": "H0_PRODUCT",
+      "realm": "space",
+      "title": "Hubble tension as early-physics product",
+      "observable": "H0",
+      "aliased": [
+        "sound-horizon scale",
+        "late expansion"
+      ],
+      "source": "Cai & Wang arXiv:2606.20434; Corfu 2025; JWST Cepheids",
+      "reasons": [
+        "archive owns this: FAC + CIC retain"
+      ]
+    }
+  ],
+  "n": {
+    "structural": 6,
+    "calibration": 1,
+    "penalized": 5,
+    "zeroed_killed_closed": 6,
+    "total": 18
+  },
+  "novelty_cap": 0.41,
+  "coherence": 0.84,
+  "ip_readiness": "Logged",
+  "realm_split": {
+    "mode": "co_primary_forced",
+    "primary": "IMF_MASS",
+    "primary_realm": "space",
+    "runner_up": "LRD_LINEWIDTH",
+    "runner_realm": "space",
+    "co_primary": "SUKUNA_KIND",
+    "co_primary_realm": "ocean",
+    "co_primary_score": 60.64,
+    "gap_counts_by_realm": {
+      "space": 3,
+      "ocean": 1,
+      "land": 1,
+      "earth": 1
+    },
+    "space_share": 0.5
+  },
+  "co_primary": "SUKUNA_KIND",
+  "sha256": "1e289b431692749c762b974109463ee66b5677fcdfc596731bb55ab76c4a2feb"
+}
